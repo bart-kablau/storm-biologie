@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="460" viewBox="0 0 420 460" role="img" aria-label="Bevruchting: stuifmeelbuis groeit door de stijl naar de eicel">
+  <defs>
+    <linearGradient id="stijlg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#CFE8B8"/><stop offset="1" stop-color="#A9D687"/>
+    </linearGradient>
+    <linearGradient id="ovaryg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CFE8B8"/><stop offset="1" stop-color="#9FCE7C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- stempel -->
+  <ellipse cx="210" cy="64" rx="74" ry="26" fill="#7FB95F" stroke="#5B954A" stroke-width="2.5"/>
+  <!-- stuifmeelkorrels op de stempel -->
+  <circle cx="172" cy="50" r="8" fill="#E9A12C" stroke="#C98A1F" stroke-width="1.5"/>
+  <circle cx="200" cy="44" r="8" fill="#E9A12C" stroke="#C98A1F" stroke-width="1.5"/>
+  <circle cx="232" cy="48" r="8" fill="#E9A12C" stroke="#C98A1F" stroke-width="1.5"/>
+  <circle cx="250" cy="58" r="7" fill="#FBD24B" stroke="#C98A1F" stroke-width="1.5"/>
+
+  <!-- stijl (kanaal) -->
+  <path d="M176 84 L 176 300 L 244 300 L 244 84 Z" fill="url(#stijlg)" stroke="#6FA84F" stroke-width="2.5"/>
+
+  <!-- vruchtbeginsel -->
+  <path d="M210 286 C 120 286, 96 380, 110 420 C 130 452, 290 452, 310 420 C 324 380, 300 286, 210 286 Z" fill="url(#ovaryg)" stroke="#6FA84F" stroke-width="3"/>
+
+  <!-- zaadbeginsel met eicel -->
+  <ellipse cx="205" cy="372" rx="42" ry="50" fill="#F2F8EA" stroke="#6FA84F" stroke-width="2.5"/>
+  <circle cx="205" cy="378" r="20" fill="#FBE3A6" stroke="#E9A12C" stroke-width="2"/>
+  <circle cx="205" cy="378" r="8" fill="#E9A12C"/>
+
+  <!-- stuifmeelbuis: van een korrel, door de stijl, naar de eicel -->
+  <path d="M200 50 C 205 130, 196 220, 205 358" fill="none" stroke="#E0667F" stroke-width="6" stroke-linecap="round" stroke-dasharray="0"/>
+  <circle cx="205" cy="358" r="6" fill="#E0667F"/>
+</svg>
